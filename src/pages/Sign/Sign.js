@@ -13,7 +13,7 @@ function Sign() {
       .then((authUser) => {
         console.log(authUser);
         // Do any additional processing for registration if needed
-        window.location.href = "http://localhost:3000";
+        
         // Switch to the login state
         setIsSignIn(true);
       })
