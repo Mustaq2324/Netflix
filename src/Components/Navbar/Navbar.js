@@ -16,13 +16,14 @@ function Navbar() {
     return ()=>window.removeEventListener("scroll",tarns)
   },[])
   return (
-    <div>
+    <div className='flex items-center'>
       <div className={show?'flex justify-between items-center bg-black p-8 z-[99] fixed top-0 w-[100%] ':'flex transition-all duration-1000 justify-between items-center  p-8 z-[99] fixed top-0 w-[100%] '}>
      <Link to="/">
      <div>
         <img src={logo} className='h-[50px] object-contain fixed top-[9px] left-0 cursor-pointer'/>
       </div>
       </Link>
+     
       <Link to="/profile">
       <div>
         <img src='https://upload.wikimedia.org/wikipedia/commons/0/0b/Netflix-avatar.png' className='fixed top-[15px] right-[20px] cursor-pointer h-[40px] object-contain'/>

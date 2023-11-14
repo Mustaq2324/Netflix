@@ -5,3 +5,9 @@
 .row::-webkit-scrollbar{
     display: none;
 }
+.login{
+    background: url(https://wpassets.brainstation.io/app/uploads/2017/04/13100509/Netflix-Background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
